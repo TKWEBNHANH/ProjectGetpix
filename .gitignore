@@ -1,28 +1,33 @@
+# Laravel
+/vendor/
+node_modules/
+public/hot
+public/storage
+storage/*.key
 .env
-.env.testing
-.idea
-.php_cs.cache
-.vscode
-.vagrant
-/stubs
-/data
-/docker-compose-collection
-Homestead.json
+.env.backup
 Homestead.yaml
-/ignorables/*
-/node_modules
+Homestead.json
 npm-debug.log
-package-lock.json
-/public/css
-/public/fonts
-/public/js
-/public/hot
-/public/storage
-/public/themes
-/public/vendor
-/lang/vendor
-/storage/*.key
-/storage/dcc-data/
-/vendor
-yarn.lock
 yarn-error.log
+/.idea
+/.vscode
+.DS_Store
+*.log
+
+# Cache, debug & IDE files
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/bootstrap/cache/*
+/*.sqlite
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Composer PHAR
+composer.phar
